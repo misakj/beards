@@ -1,0 +1,54 @@
+body {
+    /*background-image: url("https://images.pexels.com/photos/618551/pexels-photo-618551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+    background-image: url('lonebeard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+.container {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 2%;
+    background: linear-gradient(to right, rgba(46, 45, 45, 0.1), rgba(0, 0, 0, 0.0));
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 70px;
+}
+
+h2, h3 {
+    font-family: 'Squada One', cursive;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Source Sans Pro', cursive;
+    font-size: 1.1em;
+}
+
+.signUp {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin-left: 30px;
+    background-color: #282d3d;
+    transition-duration: .3s;
+    border: black;
+    color: white;
+}
+
+.signUp:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
